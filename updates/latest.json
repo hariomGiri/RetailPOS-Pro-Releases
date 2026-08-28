@@ -1,0 +1,29 @@
+{
+  "version": "1.1.0",
+  "build": 103,
+  "channel": "stable",
+  "minimumVersion": "1.0.0",
+  "releaseDate": "2026-08-28T15:54:57.605Z",
+  "critical": false,
+  "requiresInstaller": false,
+  "components": {
+    "frontend": {
+      "version": "1.1.0",
+      "package": "frontend-1.1.0.zip",
+      "sha256": "baf7c7448a5c40d2607a55e795fa0daf4184cb7982f3454cd8ba89eec8f1f61c",
+      "sizeBytes": 6059447
+    },
+    "backend": {
+      "version": "1.1.0",
+      "package": "backend-1.1.0.zip",
+      "sha256": "bec718ed96700f8aa426a3a45e6283b4074744a70648a9b45fc607eb6cb76e1c",
+      "sizeBytes": 137276548
+    }
+  },
+  "database": {
+    "schemaVersion": 1,
+    "migrationRequired": false
+  },
+  "releaseNotes": "Secure automatic updates with Ed25519 digital signatures and POS safety guards",
+  "signature": "1a34eb3b0c07fdf4c469cd25bbb8bc1453e6f4a735eade2aadb60f95f7e21bd5dd2ecd0fc6b98de91b1b4f22293d5791455ed2bb76a466f252bc95335356ad00"
+}
