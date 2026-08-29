@@ -1,31 +1,31 @@
 {
-  "version": "1.1.0",
-  "build": 103,
+  "version": "1.1.1",
+  "build": 104,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-08-28T16:53:10.477Z",
+  "releaseDate": "2026-08-29T03:37:23.398Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.1.0",
-      "package": "frontend-1.1.0.zip",
-      "sha256": "ed7193960a7d8515e2275e6308efc31c55eac5853ff33c6fb17d93d129e6a4f8",
-      "sizeBytes": 6059447,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.0/frontend-1.1.0.zip"
+      "version": "1.1.1",
+      "package": "frontend-1.1.1.zip",
+      "sha256": "fdebe0e11af34d949897c30fb7af383529d983f2ad0727fbc8b6389e4f67bb8c",
+      "sizeBytes": 6064143,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.1/frontend-1.1.1.zip"
     },
     "backend": {
-      "version": "1.1.0",
-      "package": "backend-1.1.0.zip",
-      "sha256": "f2cecd4cbef36c25b7d5561682a576b12cbd043ba1b8b1bdd171f65a0941d141",
+      "version": "1.1.1",
+      "package": "backend-1.1.1.zip",
+      "sha256": "4927819e1dc6c4d73354a0368e3e2024bcf484dae4234f493015e8be984e6e13",
       "sizeBytes": 137276548,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.0/backend-1.1.0.zip"
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.1/backend-1.1.1.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.1.0: Performance Improvements & Bug Fixes",
-  "signature": "cab09a4a6846fbeac8cef315b7feb4e7ea57f46f7937bc3cce2e46108367df5162815e6a7321d19eee0448539d484421d9f2db043e75ef3de28c0f81dc6d110f"
+  "releaseNotes": "Fixed decimal trailing zeroes on fabric meter quantities and added top header Quick Update button",
+  "signature": "7f2d7e845e1765c2a6937f1b702a7e16ea4554e40c31de40bec76da150cdaa1e63d018483595b87da36051f70474b8de2c886027c82f284498935fd4f18cb201"
 }
