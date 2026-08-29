@@ -1,31 +1,31 @@
 {
-  "version": "1.1.1",
-  "build": 104,
+  "version": "1.1.2",
+  "build": 103,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-08-29T03:37:23.398Z",
+  "releaseDate": "2026-08-29T08:39:32.031Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.1.1",
-      "package": "frontend-1.1.1.zip",
-      "sha256": "fdebe0e11af34d949897c30fb7af383529d983f2ad0727fbc8b6389e4f67bb8c",
-      "sizeBytes": 6064143,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.1/frontend-1.1.1.zip"
+      "version": "1.1.2",
+      "package": "frontend-1.1.2.zip",
+      "sha256": "56834662ace7e759adae381e11469b3b0680ba84f614d7c43d5f58ef0de0854b",
+      "sizeBytes": 6066661,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.2/frontend-1.1.2.zip"
     },
     "backend": {
-      "version": "1.1.1",
-      "package": "backend-1.1.1.zip",
-      "sha256": "4927819e1dc6c4d73354a0368e3e2024bcf484dae4234f493015e8be984e6e13",
-      "sizeBytes": 137276548,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.1/backend-1.1.1.zip"
+      "version": "1.1.2",
+      "package": "backend-1.1.2.zip",
+      "sha256": "7c77b61fa03d7963585528d645486cf0f30412ca2e0f4088c4fec6d77bf97d21",
+      "sizeBytes": 137277323,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.2/backend-1.1.2.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Fixed decimal trailing zeroes on fabric meter quantities and added top header Quick Update button",
-  "signature": "7f2d7e845e1765c2a6937f1b702a7e16ea4554e40c31de40bec76da150cdaa1e63d018483595b87da36051f70474b8de2c886027c82f284498935fd4f18cb201"
+  "releaseNotes": "Feature Update v1.1.2: Invoice Search by Amount, Monochrome Receipt Printing, Barcode Custom Deletion, Cashier Selection & Print Fixes",
+  "signature": "3e92c3b4145b9423cbb245af2745799fd727ed1ef3e864105b5b30668347e49eeef1735e9b3875e1e40c2bdc6efe4b2318a53b97d76a6b1a370de1d839913209"
 }
