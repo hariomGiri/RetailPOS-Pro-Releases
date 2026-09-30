@@ -3,22 +3,22 @@
   "build": 103,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-08-29T08:39:32.031Z",
+  "releaseDate": "2026-09-30T03:23:51.036Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
       "version": "1.1.2",
       "package": "frontend-1.1.2.zip",
-      "sha256": "56834662ace7e759adae381e11469b3b0680ba84f614d7c43d5f58ef0de0854b",
-      "sizeBytes": 6066661,
+      "sha256": "f6311e03e755bcba8e5c1b971ffafb49e9f4350609e444288a504934930cedcf",
+      "sizeBytes": 6399877,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.2/frontend-1.1.2.zip"
     },
     "backend": {
       "version": "1.1.2",
       "package": "backend-1.1.2.zip",
-      "sha256": "7c77b61fa03d7963585528d645486cf0f30412ca2e0f4088c4fec6d77bf97d21",
-      "sizeBytes": 137277323,
+      "sha256": "181f8403ad7c7f901046d641d7523c32e8c3efd9826e16f09926839301385ca3",
+      "sizeBytes": 133299349,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.2/backend-1.1.2.zip"
     }
   },
@@ -26,6 +26,6 @@
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Feature Update v1.1.2: Invoice Search by Amount, Monochrome Receipt Printing, Barcode Custom Deletion, Cashier Selection & Print Fixes",
-  "signature": "3e92c3b4145b9423cbb245af2745799fd727ed1ef3e864105b5b30668347e49eeef1735e9b3875e1e40c2bdc6efe4b2318a53b97d76a6b1a370de1d839913209"
+  "releaseNotes": "Release v1.1.2: Performance Improvements, POS Fixes & Auto-Update Sync",
+  "signature": "b207657499d3c1acf1e3b137d10b548f7e371423a09cc83d11d3e5da9934b11b4b539be47df0158c84b7e88e5b2900dd837b67a4c94019c52ee37a08fe5f1900"
 }
