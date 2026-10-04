@@ -1,31 +1,31 @@
 {
-  "version": "1.1.3",
-  "build": 104,
+  "version": "1.2.0",
+  "build": 105,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-01T04:13:23.118Z",
+  "releaseDate": "2026-10-04T09:19:01.580Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.1.3",
-      "package": "frontend-1.1.3.zip",
-      "sha256": "04478b7a65ef9c1e98bcc9e2066bf402237d9549ae992f491f733c630e3c7cfd",
-      "sizeBytes": 6400045,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.3/frontend-1.1.3.zip"
+      "version": "1.2.0",
+      "package": "frontend-1.2.0.zip",
+      "sha256": "8e143a1d0da0451a7aa23cef00d5eba9811a67f558744e291ebbf175083d562e",
+      "sizeBytes": 6407993,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.0/frontend-1.2.0.zip"
     },
     "backend": {
-      "version": "1.1.3",
-      "package": "backend-1.1.3.zip",
-      "sha256": "7ead57d88eeab75df650c55ee13cd825824fc4c96a0a42404b42477cbe1dc63b",
-      "sizeBytes": 133299791,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.1.3/backend-1.1.3.zip"
+      "version": "1.2.0",
+      "package": "backend-1.2.0.zip",
+      "sha256": "fe6a9ba7d2ed3952311dff8ab23a17fe1e94809825c445e280248d922c3e2ea4",
+      "sizeBytes": 133303996,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.0/backend-1.2.0.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.1.3: Quick Sale Category UX (+ Button), Data Reset Invoice Sequence Restart & Quick Sale Settings Cleanup",
-  "signature": "a9228e02a5f8b8d19ada7e97c502cec59d87ce72d0266ea87eef037cf4f59697801939b0c09c8c99e4cd93e95f82ef86e7a90dd086610e98204fdf08abe33c0e"
+  "releaseNotes": "Release v1.2.0: Expense & Cash-Out Analytics Report, Unified POS Drawer Expense Category Linkage, Deduplication Architecture & Multi-Source Reporting",
+  "signature": "be1cf0748cbea13a65dfd9b8ace2e0a622130a1f505961f24a10a54a963c6f4c25d1fa698b50d80030a5ec27829dcabe96c76dfe76746a218ceb3342a280c008"
 }
