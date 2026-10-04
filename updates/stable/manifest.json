@@ -3,22 +3,22 @@
   "build": 105,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-04T09:19:01.580Z",
+  "releaseDate": "2026-10-04T10:07:45.655Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
       "version": "1.2.0",
       "package": "frontend-1.2.0.zip",
-      "sha256": "8e143a1d0da0451a7aa23cef00d5eba9811a67f558744e291ebbf175083d562e",
+      "sha256": "0e40ee656e23d2f8c7a517a6c1e148442fb40651be11c0e782fb1e0cc4ad7db0",
       "sizeBytes": 6407993,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.0/frontend-1.2.0.zip"
     },
     "backend": {
       "version": "1.2.0",
       "package": "backend-1.2.0.zip",
-      "sha256": "fe6a9ba7d2ed3952311dff8ab23a17fe1e94809825c445e280248d922c3e2ea4",
-      "sizeBytes": 133303996,
+      "sha256": "b6d75c0ce7301c108880c6731518a09900e04e178b68d0f08d3a5deeb788a20e",
+      "sizeBytes": 80117249,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.0/backend-1.2.0.zip"
     }
   },
@@ -27,5 +27,5 @@
     "migrationRequired": false
   },
   "releaseNotes": "Release v1.2.0: Expense & Cash-Out Analytics Report, Unified POS Drawer Expense Category Linkage, Deduplication Architecture & Multi-Source Reporting",
-  "signature": "be1cf0748cbea13a65dfd9b8ace2e0a622130a1f505961f24a10a54a963c6f4c25d1fa698b50d80030a5ec27829dcabe96c76dfe76746a218ceb3342a280c008"
+  "signature": "6f322979fabd77c6c4dd39da428c52e0e620ddf25e3f7209eeb2277d0c2588d71b2eba61ead164e8c73aa56e8f5a64d9f8f7e4a42a42ca8caa8a258c593b7604"
 }
