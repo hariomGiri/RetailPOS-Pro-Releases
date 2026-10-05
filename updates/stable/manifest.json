@@ -1,31 +1,31 @@
 {
-  "version": "1.2.2",
-  "build": 107,
+  "version": "1.2.3",
+  "build": 108,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-05T02:23:51.143Z",
+  "releaseDate": "2026-10-05T04:47:22.359Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.2.2",
-      "package": "frontend-1.2.2.zip",
-      "sha256": "c84cab1c3e2db5208a5c3da6224d4c4bb5bf4178e297400d05fe1292c4a7d62f",
+      "version": "1.2.3",
+      "package": "frontend-1.2.3.zip",
+      "sha256": "431d6f023ce6d5eaa49571890e988cad33eb26671e90c4ca1611b654888f602e",
       "sizeBytes": 6440787,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.2/frontend-1.2.2.zip"
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.3/frontend-1.2.3.zip"
     },
     "backend": {
-      "version": "1.2.2",
-      "package": "backend-1.2.2.zip",
-      "sha256": "c064bbe7027f49775273e17070c357f327676238f5b7e8fb15ff16635507c1d7",
-      "sizeBytes": 80139604,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.2/backend-1.2.2.zip"
+      "version": "1.2.3",
+      "package": "backend-1.2.3.zip",
+      "sha256": "cbea8b5d1d4d7bd19b7f10483c30fc6f80531052529037e53d3fe53d8d1559dd",
+      "sizeBytes": 80140570,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.3/backend-1.2.3.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.2.2: Smart Procurement Planner & Predictive Reorder Forecaster with multi-horizon replenishment (Next Day, Next Week, Monthly), Style-Color-Size Matrix, Category/Subcategory/Brand/Supplier filtering, WhatsApp supplier ordering, 1-click draft PO generation, Dashboard reorganization, and currency display standardization",
-  "signature": "bbfc54a380d09bb2d50f8f8de407e06849c4ab06d1af7a85207b4bd7fb8baebb63cd459b60dbf98b6d3c972442ebf92b61880df48ba53f6f605f09f332bdff0d"
+  "releaseNotes": "Release v1.2.3: Client crash recovery hardening, automatic update runtime quarantine & rollback, SQLite WAL startup checkpoint recovery, and HTTPS camera stream error handling.",
+  "signature": "1dc58738f9eab92bb6039ed430fe48eb72bc68ae117de6a2807b442360cadd274bf55a936e513e935675f1f87a98730d3b2f1753dd35e614d5cfe4710ecb6707"
 }
