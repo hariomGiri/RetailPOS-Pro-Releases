@@ -1,31 +1,31 @@
 {
-  "version": "1.2.4",
-  "build": 109,
+  "version": "1.2.5",
+  "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-05T16:18:11.019Z",
+  "releaseDate": "2026-10-06T02:29:44.443Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.2.4",
-      "package": "frontend-1.2.4.zip",
-      "sha256": "0db8d1ee036d24921635ec0fcf3fd0d0593738e4ad3243d39aefe7c2a06baf3e",
-      "sizeBytes": 6441754,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.4/frontend-1.2.4.zip"
+      "version": "1.2.5",
+      "package": "frontend-1.2.5.zip",
+      "sha256": "6c3d26423b3516811adabf9c1a3af6c25b0219b14eaca36fae2e4f9423008985",
+      "sizeBytes": 6442124,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.5/frontend-1.2.5.zip"
     },
     "backend": {
-      "version": "1.2.4",
-      "package": "backend-1.2.4.zip",
-      "sha256": "b333e7c2308c65d6cab756c9d347884e1bddb34a0754fe500cae76b76b4ac7f1",
-      "sizeBytes": 80141706,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.4/backend-1.2.4.zip"
+      "version": "1.2.5",
+      "package": "backend-1.2.5.zip",
+      "sha256": "8abe7e008dfdd05b6416904d2f3a9448b23c39ad75a1a9f28f0859d0e0601b07",
+      "sizeBytes": 80141707,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.5/backend-1.2.5.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.2.4: Cashier role product catalog access restriction, role-based navigation hardening, and secure credential handling.",
-  "signature": "90741e62333fac9afd1222a88c35b49d2e7d80664c4f09ae30c7b56fda774ab2f71b5c0fe1ac48574babeccb8a71de35f021ed5e8cfb6ebb660c257317e6ac0a"
+  "releaseNotes": "Release v1.2.5: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
+  "signature": "4dc36cc7945bae51d4cdc459e3eedc36417932b3b2e45e86e5773c65ab9f99f46e221c3110344a6841ca222e5f28fc39531218d69ad2ab3cb9d12964424d7e09"
 }
