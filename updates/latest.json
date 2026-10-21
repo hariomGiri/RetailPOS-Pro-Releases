@@ -1,31 +1,31 @@
 {
-  "version": "1.2.6",
-  "build": 111,
+  "version": "1.2.7",
+  "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-07T10:44:45.356Z",
+  "releaseDate": "2026-10-21T04:48:01.398Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.2.6",
-      "package": "frontend-1.2.6.zip",
-      "sha256": "dfa03da7ffe0052d17dbe711e0f992b5d38da78e5168672b3e218b86c3553c77",
-      "sizeBytes": 6443686,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.6/frontend-1.2.6.zip"
+      "version": "1.2.7",
+      "package": "frontend-1.2.7.zip",
+      "sha256": "0faa09a67f5d97eadeadf13ec6096b571d7ffbac39ed815d409dbe90da3b6d25",
+      "sizeBytes": 6463915,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/frontend-1.2.7.zip"
     },
     "backend": {
-      "version": "1.2.6",
-      "package": "backend-1.2.6.zip",
-      "sha256": "c25c0d3f9b2db97509cf12fa2d5037cb6dbc09d31c07e882e38c79e8c2ede70a",
-      "sizeBytes": 80142077,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.6/backend-1.2.6.zip"
+      "version": "1.2.7",
+      "package": "backend-1.2.7.zip",
+      "sha256": "8bda52283057e3f76b178e5638ced8dd9c6d14cc379a785c30e11b780f836c83",
+      "sizeBytes": 80212296,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/backend-1.2.7.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.2.6: Excluded virtual Quick Sale lines from physical stock reports and fixed Quick Sale express cash (+) key interception.",
-  "signature": "02210417a662cf57a9783115818d738816503c97eb5889f98dc2294bfa78fe6f4931904910349b568600333e7ad746b7c3f0b842d5dbb5910b25cb4496126704"
+  "releaseNotes": "Release v1.2.7: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
+  "signature": "0e88a3e7b7dafbd1dc3baf49ad58b69b85a5cb66eb19a3dcb8b9495d5ff5510a063097b615f474fe1bfcb9418374ba06f23e08baa2cdebc5c8b5ba169c7a430f"
 }
