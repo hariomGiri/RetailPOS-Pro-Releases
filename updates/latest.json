@@ -3,22 +3,22 @@
   "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-21T04:48:01.398Z",
+  "releaseDate": "2026-10-22T03:26:07.532Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
       "version": "1.2.7",
       "package": "frontend-1.2.7.zip",
-      "sha256": "0faa09a67f5d97eadeadf13ec6096b571d7ffbac39ed815d409dbe90da3b6d25",
+      "sha256": "cfea085a622ada38f445ffc9903f9eb86365ec2f47fb91bd977f37ab102838b5",
       "sizeBytes": 6463915,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/frontend-1.2.7.zip"
     },
     "backend": {
       "version": "1.2.7",
       "package": "backend-1.2.7.zip",
-      "sha256": "8bda52283057e3f76b178e5638ced8dd9c6d14cc379a785c30e11b780f836c83",
-      "sizeBytes": 80212296,
+      "sha256": "4fee29076ea223836c88c95616656c093813386a62a9c55e0fa2be519c706817",
+      "sizeBytes": 88140271,
       "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/backend-1.2.7.zip"
     }
   },
@@ -27,5 +27,5 @@
     "migrationRequired": false
   },
   "releaseNotes": "Release v1.2.7: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
-  "signature": "0e88a3e7b7dafbd1dc3baf49ad58b69b85a5cb66eb19a3dcb8b9495d5ff5510a063097b615f474fe1bfcb9418374ba06f23e08baa2cdebc5c8b5ba169c7a430f"
+  "signature": "a44c9388183e17163f54bf4545a6b3124b3bc5464b9d1bf1f677f6608b5a088b93a88462264422400147d20a90f11cac739f3045130ece6089cf11e1b957e00a"
 }
