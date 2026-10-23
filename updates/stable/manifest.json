@@ -1,31 +1,31 @@
 {
-  "version": "1.2.7",
-  "build": 110,
+  "version": "1.2.8",
+  "build": 111,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-22T05:01:25.976Z",
+  "releaseDate": "2026-10-23T09:45:48.782Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.2.7",
-      "package": "frontend-1.2.7.zip",
-      "sha256": "bd56461707222efa2e466504e2d1513fad432162faff7f979da56ca01f528282",
-      "sizeBytes": 6463915,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/frontend-1.2.7.zip"
+      "version": "1.2.8",
+      "package": "frontend-1.2.8.zip",
+      "sha256": "0c2e83e17fb4b8da4ec262ca749e3423f33f69639e29226ef1838bb0064f47fa",
+      "sizeBytes": 6534544,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.8/frontend-1.2.8.zip"
     },
     "backend": {
-      "version": "1.2.7",
-      "package": "backend-1.2.7.zip",
-      "sha256": "5f66c6e71905895366ed165493368fe5d959497d17097e3517e40b3834d62d24",
-      "sizeBytes": 88341617,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.7/backend-1.2.7.zip"
+      "version": "1.2.8",
+      "package": "backend-1.2.8.zip",
+      "sha256": "d4dd49620d3206ad67a6735457b73c82fafaba2d140268b9aa07eff95642c8bf",
+      "sizeBytes": 88354660,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.2.8/backend-1.2.8.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.2.7: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
-  "signature": "51c7e9805c2c010d937e053a6be1b249bc78ed63a5c2c0f0979c841b547b55152d6fe64080512784ea00ddba649b6b7fd2a316a861ca0227b709755d59389808"
+  "releaseNotes": "Release v1.2.8: Direct 360° Dossier payslip generation with single-staff isolation, real-time instant bonus live accrual refresh, and multi-period dynamic audit tracking.",
+  "signature": "642403d357b1771ec5014daf514b8a33daa7153a3921640955d98f06e9abec349b622778191894a8903ed3b16569e99c57768838ed3628076cb0064899dc8304"
 }
