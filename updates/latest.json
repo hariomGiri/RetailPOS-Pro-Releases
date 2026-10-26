@@ -1,31 +1,31 @@
 {
-  "version": "1.3.1",
-  "build": 113,
+  "version": "1.3.2",
+  "build": 114,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-25T05:11:15.887Z",
+  "releaseDate": "2026-10-26T03:55:12.265Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.1",
-      "package": "frontend-1.3.1.zip",
-      "sha256": "d072444f043633d7cfa8de0eaa03869e7e34fb82f58e767ab8f0b24ea8eeefef",
-      "sizeBytes": 6566665,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.1/frontend-1.3.1.zip"
+      "version": "1.3.2",
+      "package": "frontend-1.3.2.zip",
+      "sha256": "1d37d564dfa7aa7d7c661ad4f934fd5a56ab5d76add5c78af5b05172b76db66f",
+      "sizeBytes": 6584019,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.2/frontend-1.3.2.zip"
     },
     "backend": {
-      "version": "1.3.1",
-      "package": "backend-1.3.1.zip",
-      "sha256": "a6708f2d048b637280efab849dc40cb215e710286ad5169afc2a5384ebb565f9",
-      "sizeBytes": 88364543,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.1/backend-1.3.1.zip"
+      "version": "1.3.2",
+      "package": "backend-1.3.2.zip",
+      "sha256": "17d4eecf3800c235b6b0a0dde3b44132f7c92e1a8e8e939f18e3f1cb8618354f",
+      "sizeBytes": 88369188,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.2/backend-1.3.2.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.1: Native ESC/POS salary slip thermal printing, 1-click multi-month arrears settlement, and desktop splash screen version parity.",
-  "signature": "6d247809ae5cb4737f1a8c3a8fa5c07dbfadc64fae4285ebadd2088e11a3742f0006fea3ffd8f7cdf044a3d0fb111851d37dcdb7be0e6005795fb5a7b3adc903"
+  "releaseNotes": "Release v1.3.2: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
+  "signature": "f016aba554c2c934c7d273818effa7edbf478777265367758fac0e2498039b178445dad2f2984e04430fe576bfb83b503ce26839c898389af1abb5b951890a09"
 }
