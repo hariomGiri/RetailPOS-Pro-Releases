@@ -1,31 +1,31 @@
 {
-  "version": "1.3.2",
-  "build": 114,
+  "version": "1.3.3",
+  "build": 115,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-26T03:55:12.265Z",
+  "releaseDate": "2026-10-28T06:45:40.656Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.2",
-      "package": "frontend-1.3.2.zip",
-      "sha256": "1d37d564dfa7aa7d7c661ad4f934fd5a56ab5d76add5c78af5b05172b76db66f",
-      "sizeBytes": 6584019,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.2/frontend-1.3.2.zip"
+      "version": "1.3.3",
+      "package": "frontend-1.3.3.zip",
+      "sha256": "e41d8bae74db0d00c19e5f916748c943e84513972eca4d47535595bc26f48830",
+      "sizeBytes": 6593795,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.3/frontend-1.3.3.zip"
     },
     "backend": {
-      "version": "1.3.2",
-      "package": "backend-1.3.2.zip",
-      "sha256": "17d4eecf3800c235b6b0a0dde3b44132f7c92e1a8e8e939f18e3f1cb8618354f",
-      "sizeBytes": 88369188,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.2/backend-1.3.2.zip"
+      "version": "1.3.3",
+      "package": "backend-1.3.3.zip",
+      "sha256": "6c3eb4dc0a73808bcee40c37994b38827dd8fb5e5077d1172fdb1a60d42487a6",
+      "sizeBytes": 88374660,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.3/backend-1.3.3.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.2: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
-  "signature": "f016aba554c2c934c7d273818effa7edbf478777265367758fac0e2498039b178445dad2f2984e04430fe576bfb83b503ce26839c898389af1abb5b951890a09"
+  "releaseNotes": "Release v1.3.3: Cashier shift cash-out reasons & Owner personal expense tracking, Cash/UPI payment filters across Invoices & Reports, Return receipt printing, and sales collections reconciliation.",
+  "signature": "4c71edc1ddfafea1495a33871711538765d42095e3c7872167094c05e85034c33a0b28130a9576ef73f013a76f3bf4518d94db7a9fc94d750ed88bcf2388f502"
 }
