@@ -1,31 +1,31 @@
 {
-  "version": "1.3.5",
-  "build": 120,
+  "version": "1.3.6",
+  "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-10-31T15:23:55.001Z",
+  "releaseDate": "2026-10-31T16:28:56.634Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.5",
-      "package": "frontend-1.3.5.zip",
-      "sha256": "9d6e6a2212a2411255691d25a411f6aa0288052330fcb98bd49b6ab7d23260a9",
-      "sizeBytes": 5070128,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.5/frontend-1.3.5.zip"
+      "version": "1.3.6",
+      "package": "frontend-1.3.6.zip",
+      "sha256": "6f670486d12c4e6f67862d1e630af6eab285b62e32f979b7bedffd307174c41c",
+      "sizeBytes": 5070720,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.6/frontend-1.3.6.zip"
     },
     "backend": {
-      "version": "1.3.5",
-      "package": "backend-1.3.5.zip",
-      "sha256": "282e64a22fb07916e1894ba12356be609b0ac7e049b4c7b85a71983c52cc10ea",
-      "sizeBytes": 88645797,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.5/backend-1.3.5.zip"
+      "version": "1.3.6",
+      "package": "backend-1.3.6.zip",
+      "sha256": "4642754d6d74b3193123e9a050c87b119279848383129de7a50f07e2e3274493",
+      "sizeBytes": 88759899,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.6/backend-1.3.6.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.5: Dashboard quantity precision fix (formatQuantity), continuous roll thermal print gap elimination, multi-shop universal custom logo engine, Village Register bulk printing, paper roll calculator, and manual udhari khata auto-save.",
-  "signature": "1e210f5e916b45be6c923863b447fc17410a7df39475f40b3e624e51c24bf8bb27ee543a9d25058e091924164e5fd79e4116b53c417cbf86d69ffa7303b2740e"
+  "releaseNotes": "Release v1.3.6: Enabled UPI payment QR code on thermal receipts for Udhari (credit) bills, auto-fallback for Khata statements, and 58mm QR support.",
+  "signature": "50f3a9d7aaaa06d8cb755f04d1e1d55b00a66afaf30c6dcd379272a7caf79ec0b97810a2c1d98d656080790e427c2f7c2b5d83c6e4f54222c4880df53320d70e"
 }
