@@ -1,31 +1,31 @@
 {
-  "version": "1.3.7",
+  "version": "1.3.8",
   "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-01T08:40:11.032Z",
+  "releaseDate": "2026-11-01T12:35:36.245Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.7",
-      "package": "frontend-1.3.7.zip",
-      "sha256": "0fcbfe88c24278837cbdde3e471ae2c6e1ad5733d8355782ce153d8bce0cb8c0",
-      "sizeBytes": 5071992,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.7/frontend-1.3.7.zip"
+      "version": "1.3.8",
+      "package": "frontend-1.3.8.zip",
+      "sha256": "bc1a566bae0aa9df5dd05572ee1288d88c5f54123c77143c0ce18bd6a1a925c1",
+      "sizeBytes": 5073488,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.8/frontend-1.3.8.zip"
     },
     "backend": {
-      "version": "1.3.7",
-      "package": "backend-1.3.7.zip",
-      "sha256": "fe097999b61c04f6126054aad1303dff2ffa7318e5d7f18294fc040e6f942313",
-      "sizeBytes": 88759912,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.7/backend-1.3.7.zip"
+      "version": "1.3.8",
+      "package": "backend-1.3.8.zip",
+      "sha256": "1128e7c4094bc73b8058474542aa362dbc030393d3670a06d8f1909604804ce5",
+      "sizeBytes": 88761351,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.8/backend-1.3.8.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.7: Sequential Enter key navigation for Village Udhari tables and Express Cash checkout parity with Save Only mode.",
-  "signature": "85988a9168af7a05ed8fa82bcc167faef3963dac718ce39342f583455cfe9426af4c92b949aaa13143e9e56672a42e5423de688932019fa5cb721ab70e0c050c"
+  "releaseNotes": "Release v1.3.8: Festival reminder exact balance preservation, multi-village customer collision protection, customer search debounce to eliminate typing lag, high-contrast Quick Add customer modal UI polish, and receipt layout optimization.",
+  "signature": "2e6e6d4fcf205aebe72055df8dfb8c3122ad06c79d6c6be0ef27948aac1423ec9c4d89c7868324e59f035c8b9a507e3987e306816230b5b9edff90b8ca58ed0f"
 }
