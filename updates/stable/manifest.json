@@ -1,31 +1,31 @@
 {
-  "version": "1.3.8",
+  "version": "1.3.9",
   "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-01T12:35:36.245Z",
+  "releaseDate": "2026-11-01T16:23:45.590Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.8",
-      "package": "frontend-1.3.8.zip",
-      "sha256": "bc1a566bae0aa9df5dd05572ee1288d88c5f54123c77143c0ce18bd6a1a925c1",
-      "sizeBytes": 5073488,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.8/frontend-1.3.8.zip"
+      "version": "1.3.9",
+      "package": "frontend-1.3.9.zip",
+      "sha256": "35282817a21ac911a2dc16fcfe18dadb540b45e2605fc676005b4da5fdc7a886",
+      "sizeBytes": 5080103,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.9/frontend-1.3.9.zip"
     },
     "backend": {
-      "version": "1.3.8",
-      "package": "backend-1.3.8.zip",
-      "sha256": "1128e7c4094bc73b8058474542aa362dbc030393d3670a06d8f1909604804ce5",
-      "sizeBytes": 88761351,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.8/backend-1.3.8.zip"
+      "version": "1.3.9",
+      "package": "backend-1.3.9.zip",
+      "sha256": "393a5ad112999e1018c85710d74bf91648b36a818c3ff8945f389d826513bad9",
+      "sizeBytes": 88761345,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.9/backend-1.3.9.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.8: Festival reminder exact balance preservation, multi-village customer collision protection, customer search debounce to eliminate typing lag, high-contrast Quick Add customer modal UI polish, and receipt layout optimization.",
-  "signature": "2e6e6d4fcf205aebe72055df8dfb8c3122ad06c79d6c6be0ef27948aac1423ec9c4d89c7868324e59f035c8b9a507e3987e306816230b5b9edff90b8ca58ed0f"
+  "releaseNotes": "Release v1.3.9: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
+  "signature": "32ef322b44f0a9a32d85c694ad85b4ca217cf7bbe5ff408cb381efeaa84c056d3773c9e4e9b78dff406977d1b04a0fd0c376ad34b0022bc25bb258e5405f1807"
 }
