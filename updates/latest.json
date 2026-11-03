@@ -1,31 +1,31 @@
 {
-  "version": "1.3.10",
+  "version": "1.3.11",
   "build": 110,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-02T08:44:01.418Z",
+  "releaseDate": "2026-11-03T04:36:58.291Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.10",
-      "package": "frontend-1.3.10.zip",
-      "sha256": "85574b84fdab8793dcf8a3713b9aae15ba7aa0403042007b80f282a8682de1d3",
-      "sizeBytes": 5082890,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.10/frontend-1.3.10.zip"
+      "version": "1.3.11",
+      "package": "frontend-1.3.11.zip",
+      "sha256": "5a859cc4db654b18d083ded2b9f24ca5817cc7dfdd29890225a1cf6d692bb5bb",
+      "sizeBytes": 5102068,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.11/frontend-1.3.11.zip"
     },
     "backend": {
-      "version": "1.3.10",
-      "package": "backend-1.3.10.zip",
-      "sha256": "3cf6e33d29cdb7e2a5ca528c52a5536823aa4dc055417381440e4841f84f0fc8",
+      "version": "1.3.11",
+      "package": "backend-1.3.11.zip",
+      "sha256": "863cf24de659fde00ad95f11b772e12c360b607132176cc9c52cbbe5769186c8",
       "sizeBytes": 88761371,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.10/backend-1.3.10.zip"
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.11/backend-1.3.11.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.10: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
-  "signature": "be5b8cfaebbbeb1cbc42b9308fecd59d0ab3fe58d8a27f048142ac42efeba8b16a8712e4e03684d01bcf0bc4954eb36891fe34bf59537f0fdd1520b6af8d0909"
+  "releaseNotes": "v1.3.11: Village Register Autocomplete & Search, Category-Wise Procurement PDF, Whole Register Full Export, Desktop Hamburger Cleanup",
+  "signature": "26a9dda2bc285595030607222d5e6803add05fed6e84a4ba564df1df4084c829607a5800de75ce32b752648a20d469664bb7f862249347fcda6f08fe9aa59b02"
 }
