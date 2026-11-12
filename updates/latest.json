@@ -1,31 +1,31 @@
 {
-  "version": "1.3.16",
-  "build": 116,
+  "version": "1.3.17",
+  "build": 117,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-06T05:29:28.660Z",
+  "releaseDate": "2026-11-12T04:55:52.523Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.16",
-      "package": "frontend-1.3.16.zip",
-      "sha256": "9ddd694d81128eb0045a7301bc009650db81f699d3c609913a44b93d85eae443",
-      "sizeBytes": 5135854,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.16/frontend-1.3.16.zip"
+      "version": "1.3.17",
+      "package": "frontend-1.3.17.zip",
+      "sha256": "15ce35763e38395311a5690bdd552bafea040bf513e137fb105a6d7a7a8fec28",
+      "sizeBytes": 5189635,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.17/frontend-1.3.17.zip"
     },
     "backend": {
-      "version": "1.3.16",
-      "package": "backend-1.3.16.zip",
-      "sha256": "9bcde02db7a16dc2cfa7d355406cccd24e97a3f0277b0992daf5ffdd592e7279",
-      "sizeBytes": 88771023,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.16/backend-1.3.16.zip"
+      "version": "1.3.17",
+      "package": "backend-1.3.17.zip",
+      "sha256": "daf57d56a91d365d52d3bdaa933ad4a0a900b1e9316e17dc96fc99a37cc627c9",
+      "sizeBytes": 88793827,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.17/backend-1.3.17.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.16: Searchable vector PDF report generation, customer village display in POS search, two-way Cash/UPI split payment editing with Enter key submission, safe village spelling rename without data loss, and unspecified customer khata/udhari fetch & generation.",
-  "signature": "0d5feedfbf01239d357cceec697d67de731c6ff53de20da62b400c8fa5a314eb6fa681b97ff83cd68fd7f87de7aff6ed8b4e4b45238efad7fb5b852f3df53701"
+  "releaseNotes": "Release v1.3.17: Multi-UPI ID collection analytics (Day/Week/Month/Year) across all reports & dashboard, direct multi-UPI POS selector with non-shrinking QR, Customer Display split payment QR fix, and POS price search navigation, F10 pagination, and village autocomplete fixes.",
+  "signature": "5a8106f48c028bdaa8e97a2056865841ba9a4cc3e1b3232e0b2155bd7168a5aae7e5356e94d4a76ee864b0667b4295882edc9b73757cfd007da3c98c0fbc970f"
 }
