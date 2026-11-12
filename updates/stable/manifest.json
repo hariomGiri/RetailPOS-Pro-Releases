@@ -1,31 +1,31 @@
 {
-  "version": "1.3.17",
-  "build": 117,
+  "version": "1.3.18",
+  "build": 118,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-12T04:55:52.523Z",
+  "releaseDate": "2026-11-12T17:28:11.987Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.17",
-      "package": "frontend-1.3.17.zip",
-      "sha256": "15ce35763e38395311a5690bdd552bafea040bf513e137fb105a6d7a7a8fec28",
-      "sizeBytes": 5189635,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.17/frontend-1.3.17.zip"
+      "version": "1.3.18",
+      "package": "frontend-1.3.18.zip",
+      "sha256": "64cd4da0a0e55545cad7b79c27358d47d3df2894fcce24d31ae8a318ce458d44",
+      "sizeBytes": 5197827,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.18/frontend-1.3.18.zip"
     },
     "backend": {
-      "version": "1.3.17",
-      "package": "backend-1.3.17.zip",
-      "sha256": "daf57d56a91d365d52d3bdaa933ad4a0a900b1e9316e17dc96fc99a37cc627c9",
-      "sizeBytes": 88793827,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.17/backend-1.3.17.zip"
+      "version": "1.3.18",
+      "package": "backend-1.3.18.zip",
+      "sha256": "0352c8a7d93975902635d827a2fc95654cccc43cb91544a9ac8047f66ddd0701",
+      "sizeBytes": 88796382,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.18/backend-1.3.18.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.17: Multi-UPI ID collection analytics (Day/Week/Month/Year) across all reports & dashboard, direct multi-UPI POS selector with non-shrinking QR, Customer Display split payment QR fix, and POS price search navigation, F10 pagination, and village autocomplete fixes.",
-  "signature": "5a8106f48c028bdaa8e97a2056865841ba9a4cc3e1b3232e0b2155bd7168a5aae7e5356e94d4a76ee864b0667b4295882edc9b73757cfd007da3c98c0fbc970f"
+  "releaseNotes": "Release v1.3.18: Exact decimal thermal receipt quantity formatting (e.g., 2.25m without .toFixed(1) rounding), mode-separated persistent Quick Sale categories (Standard Pcs / Meter Cloths / Cut Pieces), JSON Backup & Restore for Quick Sale categories and settings, and protection against selective cleanup/reset wipes.",
+  "signature": "c2aa26dfdbc15c71e75dbe08b2475ff33fe1277c3b31266700a26f81a76916028970c1d8240f04e3b64b23faa08bd7d5bcb427adaa6874e06956af135e07e505"
 }
