@@ -1,31 +1,31 @@
 {
-  "version": "1.3.20",
-  "build": 120,
+  "version": "1.3.21",
+  "build": 121,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-14T04:47:01.174Z",
+  "releaseDate": "2026-11-15T05:32:09.649Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.20",
-      "package": "frontend-1.3.20.zip",
-      "sha256": "484749ac0c17bd7751119c93b041c52d6ee0376adfd148423261a4ab48432c4f",
-      "sizeBytes": 5209161,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.20/frontend-1.3.20.zip"
+      "version": "1.3.21",
+      "package": "frontend-1.3.21.zip",
+      "sha256": "af8309b16df5f67b15b0c1caad306b5150214b755f1a1e7cf6995a57814f3c67",
+      "sizeBytes": 5235680,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.21/frontend-1.3.21.zip"
     },
     "backend": {
-      "version": "1.3.20",
-      "package": "backend-1.3.20.zip",
-      "sha256": "76b7c159185af4835bba6c2abcede10d6e4377f4fa8f8b910cdc72c812e0ac9f",
-      "sizeBytes": 34603008,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.20/backend-1.3.20.zip"
+      "version": "1.3.21",
+      "package": "backend-1.3.21.zip",
+      "sha256": "409d317bbc5e538d4f047fa70928cd48b453832eff7a18597f53eeb6bc3f3f00",
+      "sizeBytes": 54525952,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.21/backend-1.3.21.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.20: Shift-close Telegram delivery fix, direct PDF reports download (Daily EN/HI, Weekly, Monthly, Yearly, Reorder), multi-UPI shift & daily closing breakdown, and clickable receipt transaction view in report analytics.",
-  "signature": "2a4948671af2a5f51745baade01cd14aae1cd8779f428811f68caa0fbf9602daf064c69af9058f1f5a6313a0aa848d254cfd1235b45fa38f287192a2d100eb0e"
+  "releaseNotes": "Release v1.3.21: Instant Held Bill resume fix, bilingual itemized Udhar Parchi on 80mm & 58mm thermal printers with UPI QR code, register itemized entry, and POS quick print actions.",
+  "signature": "ecc3cd108b094d460b7022f58b05cad02f3f098f8736457eec66f29ffde11e221c3371788d9933a4eea1dc2e09ad16f4dfcff3af79346422da600ae096549f0f"
 }
