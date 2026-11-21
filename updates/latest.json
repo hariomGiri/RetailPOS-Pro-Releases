@@ -1,31 +1,31 @@
 {
-  "version": "1.3.26",
-  "build": 127,
+  "version": "1.3.27",
+  "build": 128,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-21T05:41:16.241Z",
+  "releaseDate": "2026-11-21T16:19:02.179Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.26",
-      "package": "frontend-1.3.26.zip",
-      "sha256": "907d86845f436d7c6c5b1afead99063a1f525e46fa504532a3c858d1cd2fa068",
-      "sizeBytes": 5246148,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.26/frontend-1.3.26.zip"
+      "version": "1.3.27",
+      "package": "frontend-1.3.27.zip",
+      "sha256": "e52efaae6982b27c223f5b8e364fc74c2c3321b35e88280fd1df93d36aaaea8d",
+      "sizeBytes": 5255629,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.27/frontend-1.3.27.zip"
     },
     "backend": {
-      "version": "1.3.26",
-      "package": "backend-1.3.26.zip",
-      "sha256": "f534c097c97f278af29b5d2184073b3b9d98f927e8f6c84e459968b9bf5f3ed6",
-      "sizeBytes": 88812049,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.26/backend-1.3.26.zip"
+      "version": "1.3.27",
+      "package": "backend-1.3.27.zip",
+      "sha256": "aa513d9f42bfce49583d6e41b3057db6c01af6375a98d28efee1d05d677af9fa",
+      "sizeBytes": 88814011,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.27/backend-1.3.27.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.26 (Build 127): CodeRabbit review hardening across print queue exception safety, receipt template integrity with screen-hidden root support, POS shortcut modifier guards, authorized cart snapshot binding, and modal instance isolation.",
+  "releaseNotes": "Release v1.3.27 (Build 128): Customer Display redesign & CodeRabbit hardening (Findings 1-6), Meter quick sale category invoice resolution, and discrete unit separation (PCS vs MTR) across Dashboard, Reports & Telegram.",
   "signature": ""
 }
