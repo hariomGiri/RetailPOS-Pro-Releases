@@ -1,31 +1,31 @@
 {
-  "version": "1.3.28",
-  "build": 137,
+  "version": "1.3.29",
+  "build": 147,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-23T05:54:17.304Z",
+  "releaseDate": "2026-11-25T06:36:46.150Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.28",
-      "package": "frontend-1.3.28.zip",
-      "sha256": "cd78f32bff0860eea75cd223fa2758f296ebdaed8331937a9b4607f49ffc36a7",
-      "sizeBytes": 1770114,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.28/frontend-1.3.28.zip"
+      "version": "1.3.29",
+      "package": "frontend-1.3.29.zip",
+      "sha256": "367883d790814f41480bf64fea6657c14d5d94c37b0f4885cb2a6bd7f9f0ad02",
+      "sizeBytes": 1775825,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.29/frontend-1.3.29.zip"
     },
     "backend": {
-      "version": "1.3.28",
-      "package": "backend-1.3.28.zip",
-      "sha256": "d13f8bf38063bb8b1e95841475614c36c964edf18ea4e013deb03021b155b7e8",
-      "sizeBytes": 88140236,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.28/backend-1.3.28.zip"
+      "version": "1.3.29",
+      "package": "backend-1.3.29.zip",
+      "sha256": "80f5e876b0157888fbc9574aa7a4e5e72536b6772975421158cd398ead30c646",
+      "sizeBytes": 88141869,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.29/backend-1.3.29.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.28: Enterprise hardening, commercial licensing cryptography, tax minor-unit precision, and POS variant ergonomics.",
+  "releaseNotes": "Release v1.3.29: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
   "signature": ""
 }
