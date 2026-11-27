@@ -1,31 +1,31 @@
 {
-  "version": "1.3.29",
-  "build": 147,
+  "version": "1.3.30",
+  "build": 148,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-25T06:36:46.150Z",
+  "releaseDate": "2026-11-27T14:56:41.175Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.29",
-      "package": "frontend-1.3.29.zip",
-      "sha256": "367883d790814f41480bf64fea6657c14d5d94c37b0f4885cb2a6bd7f9f0ad02",
-      "sizeBytes": 1775825,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.29/frontend-1.3.29.zip"
+      "version": "1.3.30",
+      "package": "frontend-1.3.30.zip",
+      "sha256": "e1f404b67a11ee5a353582ec618a2b56c82568237ce6998cb7880c00694d9b37",
+      "sizeBytes": 1799125,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.30/frontend-1.3.30.zip"
     },
     "backend": {
-      "version": "1.3.29",
-      "package": "backend-1.3.29.zip",
-      "sha256": "80f5e876b0157888fbc9574aa7a4e5e72536b6772975421158cd398ead30c646",
-      "sizeBytes": 88141869,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.29/backend-1.3.29.zip"
+      "version": "1.3.30",
+      "package": "backend-1.3.30.zip",
+      "sha256": "59c2779670ca4af2a2ea9dba9d1a210aaee7e575995c0fd4632613e17be470b5",
+      "sizeBytes": 88152562,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.30/backend-1.3.30.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.29: Hardened updater process shutdown, SQLite WAL snapshot preservation, and maintenance recovery safety.",
+  "releaseNotes": "Release v1.3.30 (Build 148): Eliminated ? glyphs on ESC/POS thermal invoices, fixed QuickSaleModal shortcut render loop, added durable cart return-credit recovery, serialized CashBook & atomic Shift/Return concurrency, and resolved keyboard/validation/snapshot review findings.",
   "signature": ""
 }
