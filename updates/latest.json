@@ -1,31 +1,31 @@
 {
-  "version": "1.3.30",
-  "build": 148,
+  "version": "1.3.31",
+  "build": 151,
   "channel": "stable",
   "minimumVersion": "1.0.0",
-  "releaseDate": "2026-11-27T14:56:41.175Z",
+  "releaseDate": "2026-11-28T10:19:45.651Z",
   "critical": false,
   "requiresInstaller": false,
   "components": {
     "frontend": {
-      "version": "1.3.30",
-      "package": "frontend-1.3.30.zip",
-      "sha256": "e1f404b67a11ee5a353582ec618a2b56c82568237ce6998cb7880c00694d9b37",
-      "sizeBytes": 1799125,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.30/frontend-1.3.30.zip"
+      "version": "1.3.31",
+      "package": "frontend-1.3.31.zip",
+      "sha256": "ec6e311f98929048002f3a2a552baa83c93fb85fcb6dfefa85585a1e7e7e74e6",
+      "sizeBytes": 1808963,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.31/frontend-1.3.31.zip"
     },
     "backend": {
-      "version": "1.3.30",
-      "package": "backend-1.3.30.zip",
-      "sha256": "59c2779670ca4af2a2ea9dba9d1a210aaee7e575995c0fd4632613e17be470b5",
-      "sizeBytes": 88152562,
-      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.30/backend-1.3.30.zip"
+      "version": "1.3.31",
+      "package": "backend-1.3.31.zip",
+      "sha256": "205bb4851382fcea6cf1de1aa5ebe5b4e8d2708c8fd3e9182496169ad48e99e9",
+      "sizeBytes": 161574184,
+      "downloadUrl": "https://github.com/hariomGiri/RetailPOS-Pro-Releases/releases/download/v1.3.31/backend-1.3.31.zip"
     }
   },
   "database": {
     "schemaVersion": 1,
     "migrationRequired": false
   },
-  "releaseNotes": "Release v1.3.30 (Build 148): Eliminated ? glyphs on ESC/POS thermal invoices, fixed QuickSaleModal shortcut render loop, added durable cart return-credit recovery, serialized CashBook & atomic Shift/Return concurrency, and resolved keyboard/validation/snapshot review findings.",
-  "signature": ""
+  "releaseNotes": "Release v1.3.31 (Build 151): Fixed bill GST extraction across split/footer/multi-box invoices, enabled 100% keyboard-only navigation across all Purchase Entry & AI Bill Import workflows, added per-row Selling Price / Margin All % controls, and made MRP optional/blank by default across OCR, Quick Create & Product Catalog.",
+  "signature": "53254add5a6ad6093f5e3cf7d1145bf4fc3bd4543eec920098ecd04f11e2d36c3366499d6e6a9c968be6751e81030c6076c553628903c6355ea802bb1d929304"
 }
